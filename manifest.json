@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fernando.jarvis-monitor",
+  "name": "Jarvis Monitor",
+  "version": "0.1.0",
+  "author": "Fernando",
+  "description": "CPU, RAM and temperature in the bar, with a detailed popup",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Jarvis Monitor",
+    "description": "CPU, RAM and temperature in the bar, with a detailed popup",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": { "interval": 2000 },
+    "schema": [
+      { "key": "interval", "type": "number", "label": "Refresh interval (ms)" }
+    ]
+  }
+}
