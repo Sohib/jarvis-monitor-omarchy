@@ -4,6 +4,12 @@ System monitor plugin for the Omarchy shell. It shows CPU, memory and temperatur
 
 No sudo or pkexec is required. No network access.
 
+![Jarvis Monitor panel](preview.png)
+
+| Bar widget | CPU detail | Memory detail |
+|---|---|---|
+| ![Bar widget](status-bar-jarvis-monitor.png) | ![CPU detail view](cpu-jarvis-monitor.png) | ![Memory detail view](memory-jarvis-monitor.png) |
+
 ## What it shows
 
 The bar widget displays CPU usage, memory usage and CPU temperature. The panel groups everything into nine categories, each with a summary card and a detail view:
